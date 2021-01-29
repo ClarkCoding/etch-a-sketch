@@ -1,0 +1,52 @@
+html {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Work Sans', sans serif;
+}
+
+#container{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    border: 1px solid black;
+    /* align-items: center;
+    justify-items: center; */
+}
+
+.box{
+    border: 1px solid black;
+    box-sizing: border-box;
+    
+}
+
+header {
+    
+    height: 15%;
+    width: auto;
+    padding: 25px;
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+#resetButton {
+    font-size: 1.5rem;
+    border: 2px solid #dddddd;
+    border-radius: 8%;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: #F1EDEE;
+}
+
+#resetButton:hover {
+    background-color: lightgray;
+}
+
+#resetButton:focus {
+    background-color: #F1EDEE;
+}
+
